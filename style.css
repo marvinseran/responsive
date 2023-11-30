@@ -1,0 +1,34 @@
+@media screen and (max-width : 480px) {
+	body{
+		background-color: red;}
+	#small{
+		display:flex;}
+	#medium{
+		display:none;}
+	#large{
+		display:none;}
+}
+
+@media screen and (min-width : 480px) and (max-width: 1024px) {
+	body{
+		background-color: blue;}
+	#small{
+		display:none;}
+	#medium{
+		display:flex;}
+	#large{
+		display:none;}
+}
+
+@media screen and (min-width : 1024px) {
+	body{
+		background-color: yellow;}
+	#small{
+		display:none;}
+	#medium{
+		display:none;}
+	#large{
+		display:flex;}
+}
+
+
